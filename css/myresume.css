@@ -1,11 +1,35 @@
 body{
 	font-family: 'Noto Sans TC', sans-serif;
+	color:blue
 }
 
 h1,h2,h3,h4,h5,h6{
 	font-family: 'Noto Sans TC', sans-serif;
+	text-transform:none;
+	color:blue
 }
 
 .subheading{
+	text-transform:none;
 	font-family: 'Noto Sans TC', sans-serif;
+}
+
+#about{
+	line-height:2rem
+}
+
+interest, .skill{
+	font-size:25px
+}
+
+a{
+	color:blue
+}
+
+a:active,a:focus,a:hover{
+	color:blue
+}
+
+.text-primary{
+	color:blue!important
 }
