@@ -23,15 +23,15 @@ interest, .skill{
 }
 
 a{
-	color:blue
+	color:#B088FF
 }
 
 a:active,a:focus,a:hover{
-	color:blue
+	color:#B088FF
 }
 
 .text-primary{
-	color:blue!important
+	color:#B088FF!important
 }
 
 .bg-primary{
