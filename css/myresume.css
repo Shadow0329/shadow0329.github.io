@@ -35,8 +35,8 @@ a:active,a:focus,a:hover{
 }
 
 .bg-primary{
-	background-color:#8a2be2 !important
-	background-image:url("images
+	background-color:#8a2be2 !important;
+	background-image:url("images.jpg");
 }
 
 .social-icons a:hover{
