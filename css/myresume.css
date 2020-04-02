@@ -31,12 +31,14 @@ a:active,a:focus,a:hover{
 }
 
 .text-primary{
-	color:#B088FF !important
+	color:#8B008B !important
 }
 
 .bg-primary{
 	background-color:#c164d4 !important;
 	background-image: url("https://www.transparenttextures.com/patterns/white-plaster.png");
+	background-image: linear-gradient(to bottom, red, green, blue);
+
 }
 
 .social-icons a:hover{
