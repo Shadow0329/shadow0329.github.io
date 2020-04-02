@@ -23,11 +23,11 @@ interest, .skill{
 }
 
 a{
-	color:#B088FF
+	color:#8B008B
 }
 
 a:active,a:focus,a:hover{
-	color:#B088FF
+	color:##8B008B
 }
 
 .text-primary{
