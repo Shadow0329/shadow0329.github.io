@@ -373,19 +373,23 @@
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="portfolio">
       <div class="w-100">
         <h2 class="mb-5">作品集</h2>
-       <div class="accordion" id="accordionExample">
-  <div class="card">
-    <div class="card-header" id="headingOne">
-      <h2 class="mb-0">
-        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          影片
-        </button>
-      </h2>
-    </div>
-
-    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-      <div class="card-body">
-       <div class=”col-md-4”>
+        
+        
+      <div class="container">
+    <div class="row">
+        <div class="col-md-offset-3 col-md-6">
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingOne">
+                        <h4 class="panel-title">
+                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                影片
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                        <div class="panel-body">
+                            <div class=”col-md-4”>
         <a href="https://youtu.be/ZoA6UZ2j9z0" target=_blank><img src="img/photo1-2.JPG" width="50%">
           <div class=”card border-0 shadow”>
             <div class=”card-body text-center”>
@@ -446,18 +450,22 @@
        </a>
      </div>
 
-
-      <div class="card">
-    <div class="card-header" id="headingTwo">
-      <h2 class="mb-0">
-        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          繪畫
-        </button>
-      </h2>
-    </div>
-    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-      <div class="card-body">
-        <div class=”col-md-4”>
+                       
+                    </div>
+                </div>
+ 
+                
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingTwo">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            繪圖
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                        <div class="panel-body">
+                            <div class=”col-md-4”>
         <img src="img/photo1-7.JPG" width="50%">
           <div class=”card border-0 shadow”>
             <div class=”card-body text-center”>
@@ -487,11 +495,14 @@
         </div>
        </a>
      </div>
-      </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
 </div>
- 
      </div>
     </section>
 
