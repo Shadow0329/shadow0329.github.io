@@ -47,11 +47,10 @@ card-body{
 	border: 3px solid #f5f5f5;
 }
 card-image-top{
-	width:30%;
+	width:5%;
 }
 img {
     vertical-align: middle;
     border-style: none;
 }
-photo1-1,photo1-2,photo1-3,photo1-4,photo1-5,photo1-6{
-	width:5%
+
