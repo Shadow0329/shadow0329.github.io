@@ -49,3 +49,6 @@ card-body{
 card-image-top{
 	width:30%;
 }
+img {
+    vertical-align: middle;
+    border-style: none;
