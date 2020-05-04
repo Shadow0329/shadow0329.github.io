@@ -45,7 +45,21 @@ a:active,a:focus,a:hover{
 
 
 
-card-header{
-	width="80%";
+.drop {
+  cursor: pointer;
+  display: block;
+  background: #090;
+}
+
+.drop + input{
+ display: none; /* hide the checkboxes */
+}
+
+.drop + input + div{
+  display:none;
+}
+
+.drop + input:checked + div{
+  display:block;
 }
 	
