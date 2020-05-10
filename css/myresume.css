@@ -62,7 +62,7 @@ a:hover,a:focus{
 #accordion .panel-title a{
     display: block;
     padding: 12px 20px 12px 50px;
-    background: #ebb710;
+    background: #D1BBFF;
     font-size: 18px;
     font-weight: 600;
     color: #fff;
@@ -115,3 +115,8 @@ a:hover,a:focus{
     padding-left: 25px;
     border-left: 1px dashed #8c8c8c;
 }                  
+#col-md-offset-3 col-md-6{
+flex-direction:row-reverse;
+justify-content:space-around;
+flex-items:wrap;
+}
