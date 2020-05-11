@@ -155,12 +155,12 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-        background-color: #444444 !important;
+        background-color: #c164d4 !important;
         background-image: url("3px-tile.png");
 } 
 
 .text-primary {
-  color: beige!important;
+  color:#7700BB!important;
 }
 
 a {
