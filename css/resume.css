@@ -5,9 +5,10 @@
  */
 
 body {
+  
   font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   padding-top: 54px;
-  color: #BD5D38;
+  color: #343a40;
 }
 
 @media (min-width: 992px) {
@@ -160,11 +161,12 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #BD5D38 !important;
+  background-color: #98FB98 !important;
+  background-image: url("https://www.transparenttextures.com/patterns/argyle.png");
 }
 
 .text-primary {
-  color:#BD5D38 !important;
+  color: 	#1E90FF !important;
 }
 
 a {
@@ -172,5 +174,5 @@ a {
 }
 
 a:hover, a:focus, a:active {
-  color: #BD5D38;
+  color: #824027;
 }
