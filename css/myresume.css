@@ -1,15 +1,47 @@
-body {font-family: 'Noto Sans TC', sans-serif;
+body {
+	font-family: 'Noto Sans TC', sans-serif;
 }
-h1,h2,h3,h4,h5,h6 {font-family: 'Noto Sans TC', sans-serif;}
-.subheading {font-family: 'Noto Sans TC', sans-serif;}
-.bg-primaryimage: {
-  background-color: #c164d4 important!;
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Noto Sans TC', sans-serif;
+	text-transform: none;
 }
-table {
-	width:50%       
+
+.subheading {
+	font-family: 'Noto Sans TC', sans-serif;
+	font-size: 1.2rem;
+	text-transform: none;
+	letter-spacing: -0.05rem;
 }
-tr:nth-child(even) {
-	 background-color:#c164d4;
+
+h1 .text-primary {
+	font-size: 3rem;
+	letter-spacing: -0.05rem;
+	line-height: 3rem;
+}
+
+.bg-primary {
+	background-color: #c164d4!important;
+}
+
+.text-primary {
+	color: #c164d4!important;
+}
+
+#sideNav .navbar-nav .nav-item .nav-link {
+	text-transform: none;
+}
+
+a {
+	color: #c164d4;
+}
+
+a:active, a:focus, a:hover {
+	color:#c164d4;
+}
+
+.social-icons a:hover {
+	background-color: #c164d4;
 }
 tr:hover{
   font-weight:bold
