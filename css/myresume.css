@@ -14,13 +14,6 @@ h1, h2, h3, h4, h5, h6 {
 	letter-spacing: 0.05rem;
 	line-height: 2.5rem;
 }
-.subheadingab {
-	font-family: 'Noto Sans TC', sans-serif;
-	font-size: 1.2rem;
-	text-transform: none;
-	letter-spacing: 0.05rem;
-	line-height: 2.5rem;
-	color: #c164d4;
 
 h1 .text-primary {
 	font-size: 3rem;
